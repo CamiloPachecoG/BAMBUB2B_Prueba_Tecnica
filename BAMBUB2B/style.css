@@ -1,0 +1,33 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 20px;
+		grid-column-gap: 20px;
+		grid-row-gap: 10px;
+		grid-template-columns:  200px 200px auto;
+}
+
+td {
+    border: 1px solid black;
+    padding: 20px;
+		grid-column-gap: 20px;
+		grid-row-gap: 10px;
+		grid-template-columns:  200px 200px auto;
+}
+
+th {
+    border: 1px solid black;
+    padding: 20px;
+		grid-column-gap: 20px;
+		grid-row-gap: 10px;
+		grid-template-columns:  200px 200px auto;
+		background-color: grey;
+}
+
+tr:nth-of-type(odd){
+	background-color: lightgrey;
+}
+
+.pro{
+	background-color: lightgrey;
+}
