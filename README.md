@@ -1,11 +1,11 @@
-# BAMBUB2B_Pureba_Tecnica
+# BAMBUB2B_Prueba_Tecnica
 Repositorio contenedor de la prueba tecnica de mi postulacion a BAMBUB2B
 
+\####################################################
 
-INSTRUCCIONES
+
+INSTRUCCIONES TAREA 1
 El entorno de trabajo fue montado con XAMPP 8.0.3, Version del Control Panel: 3.2.4
-\#################################################################################################
-
 
 DATOS DEL SERVIDOR UTILIZADO
 
@@ -16,12 +16,9 @@ DATOS DEL SERVIDOR UTILIZADO
 - Versión del cliente de base de datos: libmysql - mysqlnd 7.4.13
 - Versión de PHP: 7.4.13
 
-
-\#################################################################################################
 phpMyAdmin \
 Acerca de esta versión: 5.0.4, versión estable más reciente: 5.1.0
 
-\#################################################################################################
 
 USO:
 - Importar el SQL de la carpeta BD a la base de datos MySQL
@@ -31,9 +28,16 @@ USO:
 
 El "nombre_dado" por defecto es BAMBUB2B, que corresponde al nombre de la carpeta que contiene todo el programa
 
-\#################################################################################################
+
 Observaciones:
 - El código puede optimizarse tanto en legibilidad como seguridad, principalmente en seguridad\
  quitando las consultas a la BD del php principal y encapsularlas en otro archivo
 - El código actualmente es modular a la cantidad de datos que se incluyan en la base de datos\
 siempre que estos estén dentro de los rangos definidos en la sentencia SQL
+
+\####################################################
+
+INSTRUCCIONES TAREA 2
+
+USO:
+- ejecutar en un navegador el archivo index.php de la carpeta fusioncharts
