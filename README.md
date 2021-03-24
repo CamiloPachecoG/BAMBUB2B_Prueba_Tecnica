@@ -28,3 +28,10 @@ USO:
 \
 
 El "nombre_dado" por defecto es BAMBUB2B, que corresponde al nombre de la carpeta que contiene todo el programa
+
+\#################################################################################################
+Observaciones:
+- El código puede optimizarse tanto en legibilidad como seguridad, principalmente en seguridad\
+ quitando las consultas a la BD del php principal y encapsularlas en otro archivo
+- El código actualmente es modular a la cantidad de datos que se incluyan en la base de datos\
+siempre que estos estén dentro de los rangos definidos en la sentencia SQL
